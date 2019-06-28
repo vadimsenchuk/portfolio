@@ -1,0 +1,607 @@
+@media (max-width: 1050px) {
+    .header {
+        padding-top: calc(43px * 0.75);
+        background-size: contain;
+        padding-bottom: calc(262px * 0.5);
+        &__wrap {
+            text-align: center;
+        }
+        &__mode {
+            font-size: 15px;
+        }
+        &__info {
+            margin-bottom: calc(65px * 0.75);
+            justify-content: center;
+        }
+        &__present {
+            justify-content: center;
+            &::after {
+                display: none;
+            }
+        }
+        &__breaket {
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translate(-90%);
+            order: 1;
+            margin-top: 12px;
+        }
+        &__slogan {
+            font-size: 10px;
+            margin-bottom: calc(28px * 0.75);
+            line-height: 1.2;
+            text-align: center;
+        }
+        &__text {
+            font-size: calc(44px * 0.35);
+            margin-bottom: calc(70px * 0.65);
+            text-align: center;
+        }
+        &__groupButton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__button {
+            margin-right: 0;
+            margin-bottom: 12px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .logo {
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        padding-top: calc(61px * 0.75);
+        background-position: center;
+    }
+    
+    .tel {
+        margin-bottom: 12px;
+        font-size: calc(24px * 0.75);
+    }
+    
+    .button {
+        font-size: 15px;
+        padding: 10px 12px;
+        &--info {
+            padding: 10px 14px;
+        }
+        &:last-child {
+            margin-bottom: 12px;
+        }
+    }
+    
+    .card {
+        text-align: center;
+        border: none;
+        margin-bottom: 10px;
+        &__title {
+            font-size: calc(20px * 0.75);
+            margin-bottom: calc(10px * 0.75);
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.25;
+        }
+        &__price {
+            font-size: 18px;
+        }
+    }
+    
+    .about {
+        & .row {
+            justify-content: center;
+        }
+        margin-top: calc(14px * 0.75);
+        padding-bottom: calc(83px * 0.75);
+    }
+    
+    .chooseBox {
+        padding-top: calc(80px * 0.75);
+        margin-bottom: calc(86px * 0.75);
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.25;
+            margin-bottom: calc(55px * 0.75);
+        }
+        &__row {
+            justify-content: center;
+        }
+        &__card {
+            padding-bottom: calc(20px * 0.75);
+            margin-bottom: calc(64px * 0.75);
+        }
+        &__button {
+            &--info {
+                padding: 10px 20px;
+                margin: 15px 0;
+            }
+        }
+        & .card__text {
+            margin-bottom: 10px;
+        }
+        &__popupBox {
+            width: calc(400px * 1);
+            padding: calc(70px * 0.75);
+            transform: translate(-50%, -50%) scale(1);
+            left: 50%;
+            & h2 {
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            & h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    .close-btn {
+        width: calc(35px * 0.75);
+        height:calc(35px * 0.75);
+        line-height: calc(35px * 0.75);
+        font-size: 18px;
+    }
+    .form {
+        padding-top: calc(40px * 0.75);
+        padding-bottom: calc(25px * 0.75);
+        &__row {
+            justify-content: center;
+            text-align: center;
+        }
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-top: calc(12px * 0.75);
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.25;
+            margin-top: calc(14px * 0.75);
+            margin-bottom: calc(17px * 0.75);
+        }
+        &__button {
+            padding: calc(17px * 0.75) calc(12px * 0.75);
+        }
+        &__wrap {
+            align-items: center;
+        }
+        &__mode {
+            font-size: 15px;
+        }
+    }
+    
+    #form{
+        margin-bottom: 18px;
+        & .wrap {
+            display: flex;
+            justify-content: stretch;
+            flex-wrap: wrap;
+        }
+        & input {
+            width: 100%;
+            font-size: 10px;
+            padding: 10px 0 10px 8px;
+            margin-bottom: 8px;
+        }
+        & textarea {
+            font-size: 12px;
+            padding-top: 12px;
+            padding-left: 15px;
+        }
+    }
+
+    .fruitSet {
+        padding-top: calc(150px * 0.75);
+        &__container {
+            padding-bottom: calc(164px * 0.75);
+            
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.2;
+            margin-bottom: calc(45px * 0.75);
+        }
+        &__frame {
+            display: none;
+        }
+    }
+    
+    .fruitBox {
+        margin-top: calc(40px * 0.75);
+        &__row {
+            justify-content: center;
+        }
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-bottom: calc(66px * 0.75);
+        }
+        &__card {
+            margin-bottom: calc(90px * 0.75);
+        }
+    }
+    
+    .instagram {
+        padding-top: calc(90px * 0.75);
+        padding-bottom: calc(190px * 0.75);
+        background-size: 50%;
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.25;
+            margin-bottom: calc(80px * 0.75);
+        }
+        &__row {
+            justify-content: center
+        }
+        &__image {
+            padding-top: 94.15%;
+            margin-bottom: calc(30px * 0.75);
+        }
+    }
+    .delivery {
+        padding-top: calc(150px * 0.75);
+        padding-bottom: calc(87px * 0.75);
+        &__title {
+            font-size: calc(36px * 0.75);
+            margin-bottom: calc(40px * 0.75);
+        }
+        &__button {
+            padding: calc(16px * 0.75);
+        }
+    }
+    
+    .footer {
+        padding: calc(45px * 0.75) 0;
+        &__row {
+            flex-direction: column;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.2;
+            text-align: center;
+            margin: 8px 0;
+        }
+        &__logo {
+            width: 100%;
+        }
+        &__wrap {
+            margin-top: 8px;
+            text-align: center;
+        }
+        &__mode {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-top: calc(43px * 0.5);
+        padding-bottom: 262px;
+        background-size: contain;
+        padding-bottom: calc(262px * 0.25);
+        &__wrap {
+            text-align: center;
+        }
+        &__mode {
+            font-size: 10px;
+        }
+        &__info {
+            margin-bottom: calc(65px * 0.5);
+            justify-content: center;
+        }
+        &__present {
+            justify-content: center;
+            &::after {
+                display: none;
+            }
+        }
+        &__breaket {
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translate(-90%);
+            order: 1;
+            margin-top: 7px;
+        }
+        &__slogan {
+            font-size: 10px;
+            margin-bottom: calc(28px * 0.5);
+            line-height: 1.2;
+            text-align: center;
+        }
+        &__text {
+            font-size: calc(44px * 0.35);
+            margin-bottom: calc(70px * 0.35);
+            text-align: center;
+        }
+        &__groupButton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__button {
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .logo {
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        padding-top: calc(61px * 0.5);
+        background-position: center;
+    }
+    
+    .tel {
+        margin-bottom: 7px;
+        font-size: calc(24px * 0.5);
+    }
+    
+    .button {
+        font-size: 10px;
+        padding: 8px 9px;
+        &--info {
+            padding: 8px 11px;
+        }
+        &:last-child {
+            margin-bottom: 10px;
+        }
+    }
+    
+    .card {
+        text-align: center;
+        border: none;
+        margin-bottom: 7px;
+        &__title {
+            font-size: calc(20px * 0.5);
+            margin-bottom: calc(10px * 0.5);
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.25;
+        }
+        &__price {
+            font-size: 12px;
+        }
+    }
+    
+    .about {
+        & .row {
+            justify-content: center;
+        }
+        margin-top: calc(14px * 0.5);
+        padding-bottom: calc(83px * 0.5);
+    }
+    
+    .chooseBox {
+        padding-top: calc(80px * 0.5);
+        margin-bottom: 0;
+        &__title {
+            font-size: calc(36px * 0.45);
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.25;
+            margin-bottom: calc(55px * 0.5);
+        }
+        &__row {
+            justify-content: center;
+        }
+        &__card {
+            padding-bottom: calc(20px * 0.5);
+            margin-bottom: calc(64px * 0.5);
+        }
+        &__button {
+            &--info {
+                padding: 8px 15px;
+                margin: 10px 0;
+            }
+        }
+        & .card__text {
+            margin-bottom: 6px;
+        }
+        &__popupBox {
+            width: calc(400px * 0.7);
+            padding: calc(70px * 0.5);
+            // transform: translate(-55%, 0) scale(1);
+            left: 50%;
+            & h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            & h3 {
+                font-size: 12px;
+            }
+        }
+    }
+    .close-btn {
+        width: calc(35px * 0.5);
+        height:calc(35px * 0.5);
+        line-height: calc(35px * 0.5);
+        font-size: 12px;
+    }
+    .form {
+        padding-top: calc(40px * 0.5);
+        padding-bottom: calc(25px * 0.5);
+        &__row {
+            justify-content: center;
+            text-align: center;
+        }
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: calc(36px * 0.5);
+            margin-top: calc(12px * 0.5);
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.25;
+            margin-top: calc(14px * 0.5);
+            margin-bottom: calc(17px * 0.5);
+        }
+        &__button {
+            padding: calc(17px * 0.5) calc(12px * 0.5);
+        }
+        &__wrap {
+            align-items: center;
+        }
+        &__mode {
+            font-size: 10px;
+        }
+    }
+    
+    #form{
+        margin-bottom: 12px;
+        & .row {
+            flex-direction: column;
+        }
+        & .wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 0 15px;
+        }
+        & input {
+            width: auto;
+            font-size: 10px;
+            padding: 10px 0 10px 8px;
+            margin-bottom: 5px;
+        }
+        & textarea {
+            font-size: 10px;
+            padding-top: 10px;
+            padding-left: 12px;
+        }
+    }
+
+    .fruitSet {
+        padding-top: calc(150px * 0.5);
+        text-align: center;
+        &__row {
+            justify-content: center;
+        }
+        &__container {
+            padding-bottom: calc(164px * 0.5);
+            
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        &__title {
+            font-size: calc(36px * 0.5);
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.2;
+            margin-bottom: calc(45px * 0.5);
+        }
+        &__frame {
+            display: none;
+        }
+    }
+    
+    .fruitBox {
+        margin-top: calc(40px * 0.5);
+        &__row {
+            justify-content: center;
+        }
+        &__title {
+            font-size: calc(36px * 0.5);
+            margin-bottom: calc(66px * 0.5);
+        }
+        &__card {
+            margin-bottom: calc(90px * 0.5);
+        }
+    }
+    
+    .instagram {
+        padding-top: calc(90px * 0.5);
+        padding-bottom: calc(190px * 0.5);
+        background-size: 50%;
+        &__title {
+            font-size: calc(36px * 0.5);
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.25;
+            margin-bottom: calc(80px * 0.5);
+        }
+        &__row {
+            justify-content: center
+        }
+        &__image {
+            padding-top: 94.15%;
+            margin-bottom: calc(30px * 0.5);
+        }
+    }
+    .delivery {
+        padding-top: calc(150px * 0.5);
+        padding-bottom: calc(87px * 0.5);
+        &__title {
+            font-size: calc(36px * 0.5);
+            margin-bottom: calc(40px * 0.5);
+        }
+        &__button {
+            padding: calc(16px * 0.5);
+        }
+    }
+    
+    .footer {
+        padding: calc(45px * 0.5) 0;
+        &__row {
+            flex-direction: column;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 1.2;
+            text-align: center;
+            margin: 5px 0;
+        }
+        &__logo {
+            width: 100%;
+        }
+        &__wrap {
+            margin-top: 5px;
+            text-align: center;
+        }
+        &__mode {
+            font-size: 10px;
+        }
+    }
+}
+

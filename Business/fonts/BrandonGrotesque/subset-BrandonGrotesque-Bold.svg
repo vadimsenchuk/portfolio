@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Sun Feb 21 15:30:37 2010
+ By Aleksey,,,
+Copyright (c) 2009 by Hannes von Doehren. All rights reserved.
+</metadata>
+<defs>
+<font id="BrandonGrotesque-Bold" horiz-adv-x="599" >
+  <font-face 
+    font-family="Brandon Grotesque Bold"
+    font-weight="450"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 11 8 3 2 2 3 6 2 2"
+    ascent="700"
+    descent="-300"
+    bbox="24 0 549 708.762"
+    underline-thickness="50"
+    underline-position="-250"
+    unicode-range="U+0020-201C"
+  />
+<missing-glyph 
+d="M50 30v640q0 30 30 30h439q30 0 30 -30v-640q0 -30 -30 -30h-439q-30 0 -30 30zM262 314q0 -12 14 -12h36q15 0 15 13v26q0 16 16.5 32t36 28.5t36 36.5t16.5 53q0 48 -35.5 79.5t-89.5 31.5q-24 0 -46.5 -6.5t-37 -15t-25.5 -17.5t-16 -15l-5 -7q-8 -12 0 -18l22 -22
+q8 -6 17 0q1 1 7.5 7t9.5 9t11.5 8.5t15.5 8.5t18 5.5t22 2.5q29 0 45 -15t16 -37q0 -21 -15.5 -39t-34 -30t-34 -32.5t-15.5 -45.5v-29zM245 156q0 -20 14.5 -34t33.5 -14q20 0 34.5 14t14.5 34t-14.5 34t-34.5 14q-19 0 -33.5 -14t-14.5 -34z" />
+    <glyph glyph-name=".notdef" 
+d="M50 30v640q0 30 30 30h439q30 0 30 -30v-640q0 -30 -30 -30h-439q-30 0 -30 30zM262 314q0 -12 14 -12h36q15 0 15 13v26q0 16 16.5 32t36 28.5t36 36.5t16.5 53q0 48 -35.5 79.5t-89.5 31.5q-24 0 -46.5 -6.5t-37 -15t-25.5 -17.5t-16 -15l-5 -7q-8 -12 0 -18l22 -22
+q8 -6 17 0q1 1 7.5 7t9.5 9t11.5 8.5t15.5 8.5t18 5.5t22 2.5q29 0 45 -15t16 -37q0 -21 -15.5 -39t-34 -30t-34 -32.5t-15.5 -45.5v-29zM245 156q0 -20 14.5 -34t33.5 -14q20 0 34.5 14t14.5 34t-14.5 34t-34.5 14q-19 0 -33.5 -14t-14.5 -34z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="221" 
+ />
+    <glyph glyph-name="quotedblleft" unicode="&#x201c;" horiz-adv-x="392" 
+d="M299 416q-33 0 -58 25.5t-25 81.5q0 101 90 181q13 10 23 -1l15 -14q10 -12 -3 -23q-67 -55 -68 -122h2q2 1 4.5 1.5t6.5 1.5t8.5 1.5t9.5 0.5q27 0 47 -19.5t20 -46.5q0 -28 -20.5 -47.5t-51.5 -19.5zM106 416q-32 0 -57 25.5t-25 81.5q0 101 90 181q13 10 22 -1l15 -14
+q11 -13 -3 -23q-67 -55 -68 -122l4 1l12.5 2.5t14.5 1.5q27 0 47 -19.5t20 -46.5q0 -28 -20.5 -47.5t-51.5 -19.5z" />
+  </font>
+</defs></svg>
