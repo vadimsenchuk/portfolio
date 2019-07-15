@@ -889,6 +889,7 @@ body {
   }
   .about {
     margin-top: calc(14px * 0.75);
+    margin-bottom: 15px;
     padding-bottom: calc(83px * 0.75);
   }
   .about .row {
